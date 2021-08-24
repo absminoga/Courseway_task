@@ -337,8 +337,9 @@ header {
     cursor: pointer;
     font-family: LatoLite;
     font-size: calc(35px + 2vmin);
-    text-transform: uppercase; 
-    align-self: center;}
+    text-transform: uppercase;
+    -ms-flex-item-align: center;
+        align-self: center; }
     .main-header .main-header-logo a {
       display: block;
       color: white; }
@@ -353,8 +354,9 @@ header {
             flex-direction: row;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; 
-     align-self: center;}
+            justify-content: space-between;
+    -ms-flex-item-align: center;
+        align-self: center; }
     .main-header .main-header-nav .header-nav-item:not(:last-child) {
       margin-right: 5px; }
     .main-header .main-header-nav .header-nav-item a {
@@ -1188,7 +1190,9 @@ header {
     .main-header .hamburger-nav--btn {
       display: unset;
       width: 30px;
-      height: 26px; }
+      height: 26px;
+      -ms-flex-item-align: center;
+          align-self: center; }
     .main-header .hamburger-list--active {
       position: absolute;
       top: 0;
